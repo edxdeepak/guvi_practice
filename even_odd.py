@@ -1,8 +1,11 @@
 try:
   number = int(input(''))
-  if number % 2 == 0:
-    print('Even')
+  if number < 0:
+    print('invalid')
   else:
-    print('Odd')
+    if number % 2 == 0:
+      print('Even')
+    else:
+      print('Odd')
 except:
   print('invalid')
