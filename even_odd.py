@@ -5,4 +5,4 @@ try:
   else:
     print('Odd')
 except:
-  print('Invalid Input')
+  print('Invalid')
